@@ -1,0 +1,11 @@
+ID_Venda,Produto,Quantidade,Preco_Unitário,Data,Vendedor
+1,Produto A,2,10.5,2024-03-10,Ana
+2,Produto B,5,20.0,2024-03-11,Bruno
+3,Produto C,1,15.75,2024-03-12,Carla
+4,Produto D,8,8.99,2024-03-13,David
+5,Produto E,5,22.5,2024-03-14,Eva
+6,Produto F,3,12.5,2024-03-15,Fabio
+7,Produto G,4,19.9,2024-03-16,Gina
+8,Produto H,2,21.0,2024-03-17,Hector
+9,Produto I,6,13.0,2024-03-18,Igor
+10,Produto J,1,17.5,2024-03-19,Julia
