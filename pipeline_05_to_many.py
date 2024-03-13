@@ -5,6 +5,7 @@ import pandas as pd
 from sqlalchemy import create_engine
 from dotenv import load_dotenv
 from datetime import datetime
+from time import sleep
 
 # Carrega as variáveis de ambiente
 load_dotenv()
@@ -31,6 +32,7 @@ def arquivos_processados(con):
 
 def baixar_pasta_google_drive(url_pasta, diretorio_local):
     os.makedirs(diretorio_local, exist_ok=True)
+    sleep(1)
     gdown.download_folder(url_pasta, output=diretorio_local, quiet=False, use_cookies=True)
 
 def listar_arquivos_e_tipos(diretorio):

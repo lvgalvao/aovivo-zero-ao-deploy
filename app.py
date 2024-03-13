@@ -1,5 +1,5 @@
 import streamlit as st
-from pipeline_04_logs import pipeline
+from pipeline_05_to_many import pipeline
 
 st.title('Processador de Arquivos')
 
