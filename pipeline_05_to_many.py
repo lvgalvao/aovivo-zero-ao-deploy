@@ -71,7 +71,7 @@ def pipeline():
     url_pasta = 'https://drive.google.com/drive/folders/1maqV7E3NRlHp12CsI4dvrCFYwYi7BAAf'
     diretorio_local = './pasta_gdown'
 
-    baixar_pasta_google_drive(url_pasta, diretorio_local)
+    # baixar_pasta_google_drive(url_pasta, diretorio_local)
     con = conectar_banco()
     inicializar_tabela(con)
     processados = arquivos_processados(con)
